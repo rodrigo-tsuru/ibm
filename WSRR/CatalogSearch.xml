@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service xmlns="http://www.ibm.com/rest/description/1.0/" >
+    <title>Catalog searching service</title>
+    <template contentType="text/xml" httpMethod="POST" relativeURL="{category}?key={accessKey}" />
+    <authentication type="BASIC"/>
+    <parameter name="category" required="true" defaultValue="books"/>
+    <parameter name="accessKey" required="true" defaultValue="0525E2PQ81DD7ZTWTK82">
+        <description>access key for catalog searching</description>
+    </parameter>		 
+    <parameter name="title" required="false" style="form"/>
+    <parameter name="author" required="false" style="form"/>
+</service>

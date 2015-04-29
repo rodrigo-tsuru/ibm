@@ -1,0 +1,2733 @@
+<?xml version="1.0" encoding="ISO8859-1" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991121</millis>
+    <sequence>0</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>WARNING</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>All certificates will be accepted regardless of source.</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991123</millis>
+    <sequence>1</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Debug enabled</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991123</millis>
+    <sequence>2</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>validateArguments</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991123</millis>
+    <sequence>3</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>validateArguments</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991124</millis>
+    <sequence>4</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>checkWSRRVersion</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991127</millis>
+    <sequence>5</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>isHttps</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991127</millis>
+    <sequence>6</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>isHttps</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991127</millis>
+    <sequence>7</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Protocol=https</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991127</millis>
+    <sequence>8</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>checkWSRRVersion</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991127</millis>
+    <sequence>9</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>openServerConnection</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991128</millis>
+    <sequence>10</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>configureSSLConnection</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991581</millis>
+    <sequence>11</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>configureSSLConnection</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:51</date>
+    <millis>1430288991587</millis>
+    <sequence>12</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>openServerConnection</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992081</millis>
+    <sequence>13</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>checkWSRRVersion</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992081</millis>
+    <sequence>14</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>The Version of WebSphere Service Registry and Repository is supported.</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992082</millis>
+    <sequence>15</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>checkWSRRVersion</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992082</millis>
+    <sequence>16</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>parseFile</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992086</millis>
+    <sequence>17</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>getDocumentParser</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992522</millis>
+    <sequence>18</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>getDocumentParser</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992522</millis>
+    <sequence>19</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>processObjectTypesTab</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992974</millis>
+    <sequence>121</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992977</millis>
+    <sequence>122</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:52</date>
+    <millis>1430288992977</millis>
+    <sequence>123</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993164</millis>
+    <sequence>124</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993164</millis>
+    <sequence>125</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993165</millis>
+    <sequence>126</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>processObjectTypesTab</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993165</millis>
+    <sequence>127</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>generateWSRRObjects</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993174</millis>
+    <sequence>128</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993174</millis>
+    <sequence>129</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993301</millis>
+    <sequence>285</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993301</millis>
+    <sequence>286</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993302</millis>
+    <sequence>287</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993308</millis>
+    <sequence>288</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993308</millis>
+    <sequence>289</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: BusinessCapabilities</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993308</millis>
+    <sequence>290</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: BusinessCapability</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993308</millis>
+    <sequence>291</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993309</millis>
+    <sequence>292</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993309</millis>
+    <sequence>293</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993309</millis>
+    <sequence>294</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993309</millis>
+    <sequence>295</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>296</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>297</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>298</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>299</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>300</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993310</millis>
+    <sequence>301</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>302</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>303</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>304</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>305</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>306</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993311</millis>
+    <sequence>307</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993316</millis>
+    <sequence>308</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993316</millis>
+    <sequence>309</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: BusinessCapabilities</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>310</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: BusinessCapability</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>311</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>312</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>313</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>314</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>315</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>316</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993317</millis>
+    <sequence>317</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>318</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>319</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>320</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>321</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>322</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>323</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>324</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>325</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>326</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993318</millis>
+    <sequence>327</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>328</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>329</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: BusinessCapabilities</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>330</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: BusinessCapability</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>331</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>332</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>333</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>334</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993324</millis>
+    <sequence>335</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>336</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>337</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>338</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>339</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>340</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>341</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>342</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>343</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>344</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>345</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993325</millis>
+    <sequence>346</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993328</millis>
+    <sequence>347</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993329</millis>
+    <sequence>348</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993395</millis>
+    <sequence>442</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993395</millis>
+    <sequence>443</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993395</millis>
+    <sequence>444</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993400</millis>
+    <sequence>445</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993400</millis>
+    <sequence>446</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: Versions</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>447</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: Version</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>448</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>449</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>450</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>451</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993401</millis>
+    <sequence>452</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>453</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>454</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>455</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>456</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>457</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>458</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>459</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>460</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993402</millis>
+    <sequence>461</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993403</millis>
+    <sequence>462</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993403</millis>
+    <sequence>463</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993403</millis>
+    <sequence>464</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993403</millis>
+    <sequence>465</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993403</millis>
+    <sequence>466</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>467</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>468</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: Versions</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>469</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: Version</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>470</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>471</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>472</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>473</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>474</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993408</millis>
+    <sequence>475</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>476</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>477</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>478</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>479</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>480</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>481</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>482</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>483</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>484</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>485</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>486</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993409</millis>
+    <sequence>487</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993412</millis>
+    <sequence>488</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993412</millis>
+    <sequence>489</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993464</millis>
+    <sequence>583</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getCurrentSheetColumnHeadings</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993465</millis>
+    <sequence>584</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNumofRowsOnCurrentSheet</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993465</millis>
+    <sequence>585</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993470</millis>
+    <sequence>586</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993470</millis>
+    <sequence>587</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>type: Interfaces</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993480</millis>
+    <sequence>588</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Creating Type: ServiceLevelDefinition</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993480</millis>
+    <sequence>589</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getNewWSRRObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993480</millis>
+    <sequence>590</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993480</millis>
+    <sequence>591</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993480</millis>
+    <sequence>592</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>593</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>594</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>595</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>596</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>597</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>598</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>599</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>600</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>601</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993481</millis>
+    <sequence>602</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>getNextObject</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993482</millis>
+    <sequence>603</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993482</millis>
+    <sequence>604</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.ODSParser</class>
+    <method>ODSParser.getCell</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993486</millis>
+    <sequence>605</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>generateWSRRObjects</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993486</millis>
+    <sequence>606</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>exportDataToWSRR</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993486</millis>
+    <sequence>607</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>isHttps</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993486</millis>
+    <sequence>608</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>isHttps</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993487</millis>
+    <sequence>609</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Protocol=https</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993487</millis>
+    <sequence>610</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:BusinessCapabilities</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993487</millis>
+    <sequence>611</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993487</millis>
+    <sequence>612</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_1</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993488</millis>
+    <sequence>613</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993488</millis>
+    <sequence>614</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993489</millis>
+    <sequence>615</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993489</millis>
+    <sequence>616</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993505</millis>
+    <sequence>617</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993505</millis>
+    <sequence>618</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>619</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>620</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>621</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_2</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>622</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>623</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993506</millis>
+    <sequence>624</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>625</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>626</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>627</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>628</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>629</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>630</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_3</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>631</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.BusinessCapability</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>632</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>633</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993507</millis>
+    <sequence>634</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>635</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>636</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>637</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>638</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:Versions</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>639</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>640</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_5</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>641</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>642</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993508</millis>
+    <sequence>643</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>644</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>645</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>646</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>647</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>648</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>649</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_4</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>650</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993509</millis>
+    <sequence>651</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>652</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>653</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>654</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>655</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>656</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>657</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:Interfaces</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>658</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993510</millis>
+    <sequence>659</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Object ID:_6</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>660</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>resolveRelationships</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>661</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>662</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>663</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>664</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>665</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>getPrimaryType</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>666</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.WSRRObjects.WSRRObject</class>
+    <method>generateJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993511</millis>
+    <sequence>667</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:Organizations</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993512</millis>
+    <sequence>668</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:ObjectTypes</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993512</millis>
+    <sequence>669</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>MapKey:Introduction</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993513</millis>
+    <sequence>670</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>openServerConnection</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993514</millis>
+    <sequence>671</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>configureSSLConnection</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993521</millis>
+    <sequence>672</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>configureSSLConnection</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993521</millis>
+    <sequence>673</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>openServerConnection</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993522</millis>
+    <sequence>674</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Loading of objects to server starting</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993522</millis>
+    <sequence>675</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>postJSONString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993522</millis>
+    <sequence>676</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>postString</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993522</millis>
+    <sequence>677</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>{"create":[{"bsrURI":"_1","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#BusinessService","properties":[{"name":"ale63_ownerEmail","value":"business@jkhle.com"},{"name":"name","value":"Account Eligibility"},{"name":"description","value":"Validate customer information is complete and can be verified before opening an account"}],"relationships":[{"name":"ale63_owningOrganization","targets":["9c1c459c-82ea-4a41.b1c7.df2016dfc70e"]},{"name":"gep63_capabilityVersions","targets":["_4"]}]},{"bsrURI":"_2","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#BusinessApplication","properties":[{"name":"ale63_ownerEmail","value":"rodrigo.tsuru@scalait.com"},{"name":"name","value":"CalculatorApplication"},{"name":"description","value":"The Calculator Application. Every department should have one."}],"relationships":[{"name":"ale63_owningOrganization","targets":["0299d502-88f8-48c5.b241.44b8e74441d6"]},{"name":"gep63_capabilityVersions","targets":["_5"]}]},{"bsrURI":"_3","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#BusinessService","properties":[{"name":"ale63_ownerEmail","value":"rodrigo.tsuru@scalait.com"},{"name":"name","value":"MathService"},{"name":"description","value":"Service that performs basic calculations. "}],"relationships":[{"name":"ale63_owningOrganization","targets":["0299d502-88f8-48c5.b241.44b8e74441d6"]}]},{"bsrURI":"_5","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#ApplicationVersion","properties":[{"name":"version","value":"1.0"},{"name":"name","value":"CalculatorApplication"},{"name":"description","value":"Version 1.0 of the CalculatorApplication."}],"relationships":[{"name":"ale63_owningOrganization","targets":["0299d502-88f8-48c5.b241.44b8e74441d6"]}]},{"bsrURI":"_4","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#ServiceVersion","properties":[{"name":"ale63_ownerEmail","value":"development@jkhle.com"},{"name":"ale63_requirementsLink","value":"http://requirements.jkhle.com/requirements.jsp&amp;id=8833"},{"name":"version","value":"1.0"},{"name":"name","value":"Eligibility service"},{"name":"description","value":"Service to determine customer account eligibility"}],"relationships":[{"name":"ale63_owningOrganization","targets":["9c1c459c-82ea-4a41.b1c7.df2016dfc70e"]},{"name":"gep63_provides","targets":["_6"]}]},{"bsrURI":"_6","type":"GenericObject","primaryType":"http://www.ibm.com/xmlns/prod/serviceregistry/profile/v6r3/GovernanceEnablementModel#ServiceLevelDefinition","properties":[{"name":"namespace","value":"http://example.ibm.com"},{"name":"name","value":"SLD - Eligibility service"}],"relationships":[{"name":"ale63_owningOrganization","targets":["9c1c459c-82ea-4a41.b1c7.df2016dfc70e"]},{"name":"gep63_boundWebServicePort","targets":["cc3b51cc-e7f6-46fc.b357.ae1f98ae57cb"]}]}]}</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:53</date>
+    <millis>1430288993524</millis>
+    <sequence>678</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>postString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:54</date>
+    <millis>1430288994971</millis>
+    <sequence>679</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>postJSONString</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:54</date>
+    <millis>1430288994972</millis>
+    <sequence>680</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>closeServerConnection</method>
+    <thread>0</thread>
+    <message>ENTRY</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:54</date>
+    <millis>1430288994972</millis>
+    <sequence>681</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.comms.ServerConnector</class>
+    <method>closeServerConnection</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:54</date>
+    <millis>1430288994972</millis>
+    <sequence>682</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Loading of objects to server completed, check status of load to ensure all objects loaded successfully</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:54</date>
+    <millis>1430288994973</millis>
+    <sequence>683</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Load Successful</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995146</millis>
+    <sequence>684</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Created Object with ID _1 with a bsrURI of ee3466ee-215b-4b89.a4e8.4374a543e83b</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995147</millis>
+    <sequence>685</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Created Object with ID _2 with a bsrURI of a3a9e1a3-6255-45c4.aced.1acd341aede6</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995147</millis>
+    <sequence>686</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>Created Object with ID _3 with a bsrURI of 20b27a20-f84d-4d55.b0f1.43330843f14a</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995147</millis>
+    <sequence>687</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>INFO</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoaderCore</class>
+    <method>printString</method>
+    <thread>0</thread>
+    <message>{"bsrURIs":[{"createdBsrURI":"ee3466ee-215b-4b89.a4e8.4374a543e83b","tempBsrURI":"_1"},{"createdBsrURI":"a3a9e1a3-6255-45c4.aced.1acd341aede6","tempBsrURI":"_2"},{"createdBsrURI":"20b27a20-f84d-4d55.b0f1.43330843f14a","tempBsrURI":"_3"}]}
+</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995147</millis>
+    <sequence>688</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.parsers.DocumentParser</class>
+    <method>exportDataToWSRR</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+<record>
+    <date>2015-04-29T01:29:55</date>
+    <millis>1430288995147</millis>
+    <sequence>689</sequence>
+    <logger>BulkLoadLogger</logger>
+    <level>FINER</level>
+    <class>com.ibm.serviceregistry.bulkloader.BulkLoader</class>
+    <method>parseFile</method>
+    <thread>0</thread>
+    <message>RETURN</message>
+</record>
+</log>
