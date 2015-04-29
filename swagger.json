@@ -1,0 +1,287 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Account Service",
+        "description": "Account services for ALELO",
+        "version": "1.0.0"
+    },
+    "host": "api.alelo.com.br",
+    "schemes": [
+        "http"
+    ],
+    "basePath": "/v1",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/account/balance/": {
+            "get": {
+                "summary": "Account balance",
+                "description": "The balance of a given card\n",
+                "parameters": [
+                    {
+                        "name": "bin",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "mobilePhoneDDD",
+                        "in": "query",
+                        "description": "cellphone area code",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "mobilePhoneNumber",
+                        "in": "query",
+                        "description": "cellphone number",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "cardNumber",
+                        "in": "query",
+                        "description": "cellphone number",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "proxyNumber",
+                        "in": "query",
+                        "description": "cellphone number",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "fixedPassword",
+                        "in": "query",
+                        "description": "cellphone number",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    }
+                ],
+                "tags": [
+                    "Account"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Balance",
+                        "schema": {
+                            "$ref": "#/definitions/Balance"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/account/movements/": {
+            "get": {
+                "summary": "Account movements",
+                "description": "Account movements for a given card\n",
+                "parameters": [
+                    {
+                        "name": "bin",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "mobilePhoneDDD",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "mobilePhoneNumber",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "cardNumber",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "proxyNumber",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "fixedPassword",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "dateFrom",
+                        "in": "query",
+                        "description": "???",
+                        "required": true,
+                        "type": "number",
+                        "format": "integer"
+                    },
+                    {
+                        "name": "dateTo",
+                        "in": "query",
+                        "description": "Longitude component of end location.",
+                        "required": true,
+                        "type": "number",
+                        "format": "integer"
+                    },
+                    {
+                        "name": "pageIndex",
+                        "in": "query",
+                        "description": "Longitude component of end location.",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "pageSize",
+                        "in": "query",
+                        "description": "Longitude component of end location.",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    }
+                ],
+                "tags": [
+                    "Estimates"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of account movements",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Movement"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Balance": {
+            "properties": {
+                "balance": {
+                    "type": "string",
+                    "description": "balance value"
+                },
+                "money_type": {
+                    "type": "string",
+                    "description": "money type"
+                }
+            }
+        },
+        "Movement": {
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "id"
+                },
+                "accountId": {
+                    "type": "string",
+                    "description": "???"
+                },
+                "idMovementType": {
+                    "type": "string",
+                    "description": "???"
+                },
+                "operationType": {
+                    "type": "string",
+                    "description": "???"
+                },
+                "amount": {
+                    "type": "number",
+                    "description": "amount"
+                },
+                "moneyType": {
+                    "type": "number",
+                    "description": "money type"
+                },
+                "dateHourTransaction": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "dateHourPosting": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "cardNumber": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "establishment": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "transactionNumber": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "payerCPF": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "targetCPF": {
+                    "type": "number",
+                    "description": "???"
+                },
+                "balance": {
+                    "type": "number",
+                    "description": "???"
+                }
+            }
+        },
+        "Error": {
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
